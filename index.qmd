@@ -1,0 +1,139 @@
+---
+title: "Humanidades Digitais na era das IAs:<br>ética e infraestrutura"
+subtitle: "<br>Eric Brasil"
+date: "2025-05-22"
+date-format: full
+lang: "pt-BR"
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    transition: slide
+    logo: "imgs/AN.svg"
+    toc: false
+    footer: "Eric Brasil | ericbrasil.com.br"
+    toc-depth: 2
+    incremental: false
+---
+
+# O que estou fazendo aqui? {.center}
+
+- Formação em História "tradicional"
+- Docente da Universidade da Integração Internacional da Lusofonia Afro-Brasileira (UNILAB) e do Mestrado em Humanidades Digitais da UFRRJ
+- Descoberta dos métodos digitais na prática
+- Pesquisas sobre a Hemeroteca Digital Brasileira
+- LABHDUFBA
+
+# Rede de LABHDs {.center}
+
+:::columns
+:::column
+![](imgs/LABHDUFBA.png){ width=200px }
+
+![](imgs/LABHDUFRJ.png){ width=200px }
+:::
+:::column
+
+![](imgs/LABHDUFSC.png){ width=200px }
+
+![](imgs/labhdufop.png){ width=200px }
+:::
+::::
+
+# Pesquisas e projetos {.center}
+
+---
+
+## Hemerotecas Digitais em Língua Portuguesa {.center}
+
+- pyHDB
+- HEMDIG
+
+---
+
+## pyHDB {.center}
+
+::::columns
+:::column
+![](https://ericbrasil.com.br/pyHDB/img/banner.png)
+:::
+
+:::column
+- Biblioteca Python para acessar e manipular dados da Hemeroteca Digital Brasileira
+:::
+::::
+
+- Os limites do web scraping e da ausencia de APIs 
+
+---
+
+## pyHDB {.center}
+
+- BRASIL, Eric. pyHDB - Ferramenta Heurística para a Hemeroteca Digital Brasileira: utilizando técnicas de web scraping para a pesquisa em História. *História da Historiografia: International Journal of Theory and History of Historiography*, Ouro Preto, v. 15, n. 40, p. 186–217, 2022. DOI: 10.15848/hh.v15i40.1904.
+- Documentação: [pyHDB](https://ericbrasil.com.br/pyHDB/)
+
+---
+
+## HEMDIG(pt) {.center}
+
+::::columns
+:::column
+![](https://ericbrasil.com.br/hemdig-framework/_images/logo-lg.svg)
+:::
+:::column
+- Framework para organização e análise de páginas de periódicos digitalizados
+:::
+::::
+- O problema da falta de APIs e modelos treinados de OCR
+
+---
+
+## HEMDIG(pt) {.center}
+
+- Publicação: [ref]
+- [HEMDIG(pt)](https://ericbrasil.com.br/hemdig-framework/)
+
+---
+
+## Ecossistema multiplataforma de desinformação e radicalização: o caso do Telegram no Brasil (2020-2025) {.center}
+
+[explicar o histórico da pesquisa e a epsquisa atual com o ISC]
+
+---
+
+### Metodologia {.center}
+
+[explicar ETL, etc]
+[Só é poss+ivel com APIs abertas e bem documentadas]
+
+
+# Desafios éticos e infraestruturais {.center}
+
+- A urgência de uma infraestrutura pública com APIs abertas para pesquisa histórica: Biblioteca Nacional e Arquivo Nacional [explicar]
+- REpositórios se fechando aos scrapers com medo das IAs! [quais consequências?]
+- Complexidade metodológica: demanda por interdisciplinaridade e formação em História Digital. “objeto epistêmico complexo” (Aradau & Blanke, 2015);
+- Pensar os dados digitais enquanto memória social.
+- 
+
+
+---
+
+## O que fazer na era das IAs? {.center}
+
+- A dependência de modelos de IA proprietários, guiados por interesses comerciais e práticas de extrativismo de dados
+- A urgência da participação ativa de historiadores na formulação dessas pautas
+- A necessidade de decisões informadas e comprometidas com a reflexão teórico-metodológica própria do campo das Humanidades Digitais
+
+---
+
+# Conclusão {.center}
+
+- A importância de uma infraestrutura pública com APIs abertas para pesquisa histórica: sem API não há pesquisa! Não é poss+ivel aplicar métodos digitais sofisticados, sobretudo o desenvolvimento de aplicações de IA (especialmente RAGs)
+- A urgência de uma abordagem ética e responsável na utilização de modelos de IA, evitando a dependência de soluções proprietárias que não atendem às necessidades específicas da pesquisa histórica: modelos abertos.
+- Necessidade de uma divisão igualitária de recursos com a região norte-nordeste
+- Estrutura pública de servidores (VMs) e armazenamento (S3) ou “cotas” em nuvens federadas;
+- Acesso a créditos para uso de APIs de LLM.
+- demanda por recursos computavinais
+- Criação de uma plataforma pública e auditável de armazenamento dos conteúdos;
+
+
