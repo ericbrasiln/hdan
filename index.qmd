@@ -16,13 +16,17 @@ format:
     incremental: false
 ---
 
+# Link da apresentação
+
+![](imgs/hdan_qr.png)
+
+
 # O que estou fazendo aqui? {.center}
 
-- Formação em História "tradicional"
 - Docente da Universidade da Integração Internacional da Lusofonia Afro-Brasileira (UNILAB) e do Mestrado em Humanidades Digitais da UFRRJ
-- Descoberta dos métodos digitais na prática
-- Pesquisas sobre a Hemeroteca Digital Brasileira
-- LABHDUFBA
+- Formação em História "tradicional"
+- Pesquisas sobre a Hemeroteca Digital Brasileira e a descoberta das HD
+- [LABHDUFBA](https://labhdufba.github.io/)
 
 # Rede de LABHDs {.center}
 
@@ -36,7 +40,7 @@ format:
 
 ![](imgs/LABHDUFSC.png){ width=200px }
 
-![](imgs/labhdufop.png){ width=200px }
+![](imgs/LABHDUFOP_no_bg.png){ width=200px }
 :::
 ::::
 
@@ -85,36 +89,61 @@ format:
 :::
 ::::
 - O problema da falta de APIs e modelos treinados de OCR
-
----
-
-## HEMDIG(pt) {.center}
-
-- Publicação: [ref]
 - [HEMDIG(pt)](https://ericbrasil.com.br/hemdig-framework/)
 
 ---
 
 ## Ecossistema multiplataforma de desinformação e radicalização: o caso do Telegram no Brasil (2020-2025) {.center}
 
-[explicar o histórico da pesquisa e a epsquisa atual com o ISC]
+---
+
+## Perspectivas teóricas {.center}
+
+- Aliança entre ciência de dados e ciências sociais e humanas;
+- Vigilância-como-método (Topinka et al., 2021)
+- Uso de Lurkers (Ferguson, 2017; Barratt e Maddox, 2016);
 
 ---
 
-### Metodologia {.center}
+## Metodologia {.center}
 
-[explicar ETL, etc]
-[Só é poss+ivel com APIs abertas e bem documentadas]
+![](imgs/etl.png)
 
+---
+
+## Base de dados {.center}
+
+(+ de 65 milhões de mensagens, 3.5 milhões de imagens, 900 mil vídeos; 3 milhões de links do Youtube; 30 Terabytes de dados)
+
+![](imgs/dados.png)
+
+---
+
+## Exemplos de análises atuais (com LLM e RAG) {.center}
+
+![Redes Semânticas](imgs/rede.png)
+
+---
+
+## Exemplos de análises atuais (com LLM e RAG) {.center}
+
+
+![Clusterização de Imagens](imgs/cluster.png)
+
+---
+
+## Como é possível? {.center}
+
+- API aberta e documentada
+- Financiamento 
+- Interdisciplinaridade.
 
 # Desafios éticos e infraestruturais {.center}
 
-- A urgência de uma infraestrutura pública com APIs abertas para pesquisa histórica: Biblioteca Nacional e Arquivo Nacional [explicar]
-- REpositórios se fechando aos scrapers com medo das IAs! [quais consequências?]
-- Complexidade metodológica: demanda por interdisciplinaridade e formação em História Digital. “objeto epistêmico complexo” (Aradau & Blanke, 2015);
+- A urgência de uma infraestrutura pública com APIs abertas para pesquisa histórica.
+- Repositórios se fechando aos scrapers com medo das IAs!
+- Complexidade metodológica: demanda por interdisciplinaridade e formação em História Digital.
 - Pensar os dados digitais enquanto memória social.
-- 
-
 
 ---
 
@@ -124,16 +153,22 @@ format:
 - A urgência da participação ativa de historiadores na formulação dessas pautas
 - A necessidade de decisões informadas e comprometidas com a reflexão teórico-metodológica própria do campo das Humanidades Digitais
 
----
+# Conclusão {.center}
+
+- A importância de uma infraestrutura pública com APIs abertas para pesquisa histórica
+- A urgência de uma abordagem ética e responsável na utilização de modelos de IA, evitando a dependência de soluções proprietárias que não atendem às necessidades específicas da pesquisa histórica.
 
 # Conclusão {.center}
 
-- A importância de uma infraestrutura pública com APIs abertas para pesquisa histórica: sem API não há pesquisa! Não é poss+ivel aplicar métodos digitais sofisticados, sobretudo o desenvolvimento de aplicações de IA (especialmente RAGs)
-- A urgência de uma abordagem ética e responsável na utilização de modelos de IA, evitando a dependência de soluções proprietárias que não atendem às necessidades específicas da pesquisa histórica: modelos abertos.
 - Necessidade de uma divisão igualitária de recursos com a região norte-nordeste
 - Estrutura pública de servidores (VMs) e armazenamento (S3) ou “cotas” em nuvens federadas;
 - Acesso a créditos para uso de APIs de LLM.
-- demanda por recursos computavinais
 - Criação de uma plataforma pública e auditável de armazenamento dos conteúdos;
 
+# Obrigado {.center}
 
+Contatos: 
+
+- ericbrasiln@pronton.me
+- profericbrasil@unilab.edu.br
+- [ericbrasil.com.br](https://ericbrasil.com.br/pt-br/contact/)
